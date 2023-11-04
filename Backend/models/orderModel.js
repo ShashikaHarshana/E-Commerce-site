@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 // Declare the Schema of the Mongo model
-var orderSchema = new mongoose.Schema({
+const orderSchema = new mongoose.Schema({
   orderItemDetails: [
     {
       productId: {

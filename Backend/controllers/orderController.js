@@ -54,7 +54,7 @@ export const updateOrder = asyncHandler(async (req, res) => {
         new: true,
       }
     );
-    if (updateProduct) {
+    if (updateOrder) {
       res.json({ msg: "order updated Successfully" });
     } else {
       throw new Error("Internal Server Error");
