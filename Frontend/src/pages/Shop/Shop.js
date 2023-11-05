@@ -6,7 +6,7 @@ import { addProducts } from "../../redux/dealMartSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 const Shop = () => {
-  const [itemsPerPage, setItemsPerPage] = useState(12);
+  const [itemsPerPage, setItemsPerPage] = useState(8);
   const [loading, setLoading] = useState(false);
   const dispatch = useDispatch();
 

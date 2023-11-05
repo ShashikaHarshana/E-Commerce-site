@@ -1,5 +1,6 @@
 import logo from "./orebiLogo.png";
 import logoLight from "./logoLight.png";
+import logoDeal from "./logoDeal.png";
 import bannerImgOne from "./banner/bannerImgOne.webp";
 import bannerImgTwo from "./banner/bannerImgTwo.webp";
 import bannerImgThree from "./banner/bannerImgThree.webp";
@@ -34,6 +35,7 @@ import emptyCart from "../images/emptyCart.png";
 export {
   logo,
   logoLight,
+  logoDeal,
   bannerImgOne,
   bannerImgTwo,
   bannerImgThree,
