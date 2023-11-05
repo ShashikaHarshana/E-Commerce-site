@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { Link, useNavigate } from "react-router-dom";
-import { logoLight } from "../../assets/images";
+import { logoDeal, logoLight } from "../../assets/images";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { clearUser, saveUser } from "../../redux/dealMartSlice";
@@ -68,7 +68,7 @@ const SignIn = () => {
       <div className="w-1/2 hidden lgl:inline-flex h-full text-white">
         <div className="w-[450px] h-full bg-primeColor px-10 flex flex-col gap-6 justify-center">
           <Link to="/">
-            <img src={logoLight} alt="logoImg" className="w-28" />
+            <img src={logoDeal} alt="logoImg" className="w-28" />
           </Link>
           <div className="flex flex-col gap-1 -mt-1">
             <h1 className="font-titleFont text-xl font-medium">
